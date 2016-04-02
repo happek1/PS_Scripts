@@ -1,6 +1,6 @@
 ﻿Import-Module activeDirectory 
  
-$fqdn = "reedsmith.com"
+$fqdn = "domain.com"
  
 Write-Host "Contacting $fqdn domain..." -ForegroundColor Yellow 
  
