@@ -1,5 +1,5 @@
 #Description
-#Creates sessions to servers specificed in a text file and stops a service, then checks and outputs the status
+#Creates sessions to servers specificed in a text file and starts a service, then checks and outputs the status
 ﻿$rs = Get-Content .\drexch.txt | New-PSSession
 invoke-Command -Session $rs -ScriptBlock {net stop spooler} -AsJob
 Sleep -Seconds 5
