@@ -4,9 +4,9 @@ function Get-NetStat
 {
 <#
 .SYNOPSIS
-    This function will get the output of netstat -n and parse the output
+    This function will get the output of netstat -n and parse the output 
 .DESCRIPTION
-    This function will get the output of netstat -n and parse the output
+    This function will check for a connection between two servers over a specfic port. If the connection is made it will write an event to the Application log
 #>
     PROCESS
     {
