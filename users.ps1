@@ -1,3 +1,9 @@
+<#
+.SYNOPSIS
+    Get Count of users in each OU
+.DESCRIPTION
+    Loads the AD Tree and then counts users in any "*_Users" OU, then outputs to a text file
+#>
 ﻿Import-Module activeDirectory 
  
 $fqdn = "domain.com"
